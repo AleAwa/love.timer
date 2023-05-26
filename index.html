@@ -43,7 +43,7 @@
 
 <body>
     <div class="content">
-        <h2>崽崽，我们已经热恋了</h2>
+        <h2>我们已经热恋了</h2>
         <div class="timer">
             <b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分 <b id="s"></b> 秒
         </div>
@@ -51,7 +51,7 @@
 
     <script>
         function timer() {
-            var start = new Date(2022, 11, 5); 
+            var start = new Date(2022, 10, 5); 
             var t = new Date() - start;
             var h = ~~(t / 1000 / 60 / 60 % 24);
             if (h < 10) {
